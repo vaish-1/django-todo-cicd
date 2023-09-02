@@ -5,7 +5,7 @@ services:
     build: .
     ports:
       - 8000:8000
-    #volumes:
+    #volumes:                            # Note: If using persistent volume, any changes made in index.html will not relect even if using compose up or down. So first comment volume, then do the modification.
      # - django-todo-app-vol:/app
 
   mysql_db:
