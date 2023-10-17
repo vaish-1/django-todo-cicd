@@ -17,4 +17,4 @@ spec:
 
 #    nodePort: The port on the node where external traffic will come in on.
 #    port: The port of this service.
-#    targetPort The target port on the pod(s) to forward traffic to.
+#    targetPort: The target port on the pod(s) to forward traffic to.
