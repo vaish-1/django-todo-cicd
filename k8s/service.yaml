@@ -13,3 +13,8 @@ spec:
       # Optional field
       # By default and for convenience, the Kubernetes control plane will allocate a port from a range (default: 30000-32767)
       nodePort: 30007
+
+
+#    nodePort: The port on the node where external traffic will come in on.
+#    port: The port of this service.
+#    targetPort The target port on the pod(s) to forward traffic to.
