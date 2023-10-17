@@ -8,8 +8,8 @@ spec:
     app: todo-app
   ports:
       # By default and for convenience, the `targetPort` is set to the same value as the `port` field.
-    - port: 80   
-      targetPort: 8000
+    - port: 80   # Port: Some times your application inside container serves different services on a different port. 
+      targetPort: 8000    # TargetPort: This is the actual port on which your application is running inside the container. 
       # Optional field
       # By default and for convenience, the Kubernetes control plane will allocate a port from a range (default: 30000-32767)
       nodePort: 30007
